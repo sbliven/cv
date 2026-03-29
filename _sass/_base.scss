@@ -1,9 +1,11 @@
 /* ======= Base ======= */
+@import "vars";
+
 body {
   font-family: "Roboto", sans-serif;
   color: $text-color-secondary;
   background: $smoky-white;
-  font-size: 14px;
+  font-size: $body-font-size;
   padding: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -66,7 +68,7 @@ p {
   }
   .tagline {
     color: rgba(256, 256, 256, 0.6);
-    font-size: 16px;
+    font-size: $header-font-size;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 0;
@@ -103,13 +105,13 @@ p {
   }
   .container-block-title {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: $header-font-size;
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 15px;
   }
   .degree {
-    font-size: 14px;
+    font-size: $body-font-size;
     margin-top: 0;
     margin-bottom: 5px;
   }
@@ -166,7 +168,7 @@ p {
   padding: 60px;
   .section-title {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: $header-font-size;
     font-weight: 500;
     color: darken($theme-color, 15%);
     position: relative;
@@ -174,7 +176,7 @@ p {
     margin-bottom: 20px;
   }
   .section {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
 
   .experiences-section,
@@ -196,11 +198,15 @@ p {
   .cert-title,
   .recommendation-person {
     color: $text-color;
-    font-size: 16px;
+    font-size: $body-font-size;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
     flex: 75%;
+  }
+
+  .job-group {
+    color: $text-color;
   }
 
   .time,
@@ -220,7 +226,7 @@ p {
   }
 
   .project-title {
-    font-size: 16px;
+    font-size: $body-font-size;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 5px;
@@ -242,37 +248,42 @@ p {
       margin-bottom: 15px;
     }
   }
-
-  .publication-title {
-    font-size: 16px;
-    font-weight: 400;
-    color: $text-color;
-    margin-bottom: 1px;
-  }
-  .publication-authors {
-    font-style: italic;
-    color: $text-grey;
-    margin-bottom: 1px;
-  }
   .publications-section {
     .intro {
       margin-bottom: 30px;
     }
     .item {
-      margin-bottom: 15px;
+      font-size: 10pt;
+      margin-bottom: 0px;
+
+      .publication-title {
+        font-weight: 400;
+        color: $text-color;
+        //margin-bottom: 1px;
+        display: inline;
+      }
+      .publication-authors {
+        color: $text-grey;
+        margin-bottom: 1px;
+        display: inline;
+      }
+      .publication-conference {
+        font-style: italic;
+        display: inline;
+      }
     }
   }
 }
 
 .skillset {
   .item {
-    margin-bottom: 15px;
+    margin-bottom: 0;//15px;
     overflow: hidden;
   }
   .level-title {
-    font-size: 14px;
+    font-size: $body-font-size;
     margin-top: 0;
-    margin-bottom: 12px;
+    margin-bottom: 0;//12px;
   }
   .level-bar {
     height: 12px;
@@ -282,6 +293,9 @@ p {
     height: 12px;
     background: lighten($theme-color, 15%);
   }
+  .level-details {
+    margin-bottom: 0px;
+  }
 }
 
 .footer {
@@ -289,7 +303,7 @@ p {
   .copyright {
     line-height: 1.6;
     color: $text-color-secondary;
-    font-size: 13px;
+    font-size: $footer-font-size;
   }
 
   .fa-heart {

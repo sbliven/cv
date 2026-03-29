@@ -3,36 +3,37 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  position: left # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Spencer Bliven
+  tagline: Data, Code, and Open Science
+  avatar: 1a6d_D4.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  email: spencer.bliven@gmail.com
+  phone: +41 79 172 77 07
+  timezone: Europe/Zurich # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship: United States
+  residence: Zurich, Switzerland (C Permit)
+  #website: https://example.com/ # Include the full website URL, including "http://" or "https://".
+  linkedin: blivens
+  #xing: alandoe
+  github: sbliven
+  #telegram: # add your nickname without '@' sign
+  #gitlab:
+  #bitbucket:
+  #bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
+  #twitter: '@jekyllrb'
+  #stack-overflow: # Number/Username, e.g. 123456/alandoe
+  #codewars:
+  #goodreads: # Number-Username, e.g. 123456-alandoe
+  #mastodon: # Please include your full Mastodon link here.
+  #hackerrank: # Please provide your HackerRank username.
+  #leetcode: # Please provide your LeetCode username.
+  #pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
     title: Languages
@@ -40,247 +41,310 @@ sidebar:
     - idiom: English
       level: Native
 
-    - idiom: French
-      level: Professional
+    - idiom: German
+      level: B2
 
-    - idiom: Spanish
-      level: Professional
+    - idiom: American Sign Language
+      level: Beginner
 
   interests:
     title: Interests
     info:
     - item: Climbing
       link:
-
-
-    - item: Snowboarding
+    - item: 3D Printing
+      link: https://www.thingiverse.com/spencer/designs
+    - item: Science Fiction
       link:
-
-
-    - item: Cooking
+    - item: Horology
       link:
-
+    - item: Singing
+      link:
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Scientific Computing Engineer with 15+ years of experience in bioinformatics, structural biology, and computational research. Expertise in designing and implementing full-stack scientific software solutions, open research data infrastructure, and large-scale computing systems. Passionate about open science, community-driven development, and enabling researchers through robust tools and data management systems. Strong background in algorithm development, software architecture, and cross-functional team leadership.
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: PhD in Bioinformatics
+    university: University of California, San Diego
+    time: 2009-2015
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+      _Advisor:_ Prof. Philip Bourne.
+      _Thesis:_ [Structure-Preserving Rearrangements: Algorithms for Structural Comparison and Protein Analysis](https://www.proquest.com/openview/66848a5f702b91ce5b7b43f2356bcde1/1?pq-origsite=gscholar&cbl=18750)
+  - degree: BS in Computer Science, BS in Biochemistry (with Distinction)
+    university: University of Washington
+    time: 2004 - 2009
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      _Advisor:_ Prof. David Baker.
+      _Thesis:_ [Efficient Modeling of Disulfide Bonds with Rosetta](/assets/documents/Bliven thesis University of Washington.pdf)
+
+# Competencies
+# Project Management:
+# :
+# Frameworks & Technologies:
+# Devops: docker, kubernetes, ansible, helm, CI/CD github actions
+
+skills:
+  title: Competences
+  show_levels: False # set to False if you want to hide the skill levels
+
+  toolset:
+  - name: Project Management
+    details: Agile development, kanban, SWOT analysis, Jira, github projects
+    level: 98%
+
+  - name: Top Programming Languages
+    details: Python, Java, Javascript, Typescript, HTML, CSS, Go, C++, Bash, R
+
+  - name: Frameworks & Technologies
+    details: Angular, OpenAPI, LinkML, JSON Schema, JSON-LD,
+
+  - name: Devops
+    details: Docker, Kubernetes, Ansible, Helm, CI/CD with github actions
+
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Scientific Computing Engineer
+    time: 2018 - Present
+    company: Scientific Data Curation, Paul Scherrer Institute, Switzerland
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      - Project coordinator for OpenEM (openem.ch). Created an open research data (ORD) infrastructure for Swiss electron microscopy facilities. Wrote ETH and swissuniversities grants leading to 2.4 million CHF, then led a distributed team of 7 developers implementing the infrastructure.
+      - Represented PSI in ORD committees and consortiums. (ETH-ORD Expert Group for Services and Infrastructure; ETH Research Data Services Explorer Steering Committee)
+      - Scientific software projects, including full-stack web apps, high-performance computing, and devops deployment. (Typescript, Python, Go, C++, ansible, kubernetes)
+      - Created data collection and processing pipelines for the PSI electron microscopy facility. (Slurm, relion, cryoSPARC, hardware purchasing and installation, network configuration)
+
+  - role: Postdoctoral Researcher
+    time: 2017 - 2018
+    company: Zurich University of Applied Science, Switzerland
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      _Advisor:_ Prof. Maria Anisimova.
+      Focused on phylogenetic methods for tandem repeat proteins, including software development and benchmarking. Developed novel methods for the [Tandem Repeat(https://github.com/acg-team/tral) and applied these systematically to the Armadillo Repeat protein family. (Python, slurm)
+  - role: NIH Postdoctoral Fellow
+    time: 2015 - 2017
+    company: National Institutes of Health, Bethesda, MD
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      _Advisors:_ Prof. Philip Bourne (NIH) and Dr. Guido Capitani (PSI)
+      Analysis of protein-protein interactions in crystal structures as part of the [EPPIC](https://www.eppic-web.org), the Evolutionary Protein Protein Interface Classifier. (Java, Javascript, NGL, vis.js)
+  - role: PhD in Bioinformatics
+    company: University of California, San Diego
+    time: 2009-2015
+    details: |
+      _Advisor:_ Prof. Philip Bourne.
+      _Thesis:_ [Structure-Preserving Rearrangements: Algorithms for Structural Comparison and Protein Analysis](https://www.proquest.com/openview/66848a5f702b91ce5b7b43f2356bcde1/1?pq-origsite=gscholar&cbl=18750)
+      Structural comparison algorithms for proteins, including [CE-Symm](https://github.com/rcsb/symmetry/) for detecting internal pseudosymmetry. These were deployed on the [RCSB Protein Data Bank](https://www.rcsb.org), as well as applied systematically across the PDB. (Java, Open Science Cloud, BioJava core developer, Open Bioinformatics Foundation member)
+  - role: Lab Intern
+    time: 2008
+    company: ETH Zürich
+    details: |
+      _Advisor:_ Prof. Donald Hilvert
+  - role: Undergraduate Researcher
+    time: 2007
+    company: Seattle Children's Hospital/U. Washington Dept. Biomedical and Health Informatics
+    details: |
+      Advisor:_ Dr. Eugene Kolker
+  - role: Software Intern
+    time: 2006 - 2007
+    company: Exbiblio
 
 certifications:
   title: Certifications
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
+  - name: Project Management Methodology and Leadership
+    start: 2023
+    #end: 2023
+    organization: Jürg Kuster
+    #credentialid: 111-222
+    #credentialurl: www.google.com
+    #credentialname: Google
+    #details: |
+  - name: Deutsch B2 (results pending)
+    start: 2026
+    end:
+    organization: TELC
+    #credentialid: 111-222
+    #credentialurl: www.github.com
+    #credentialname: Github
+    #details: |
+  - name: Deutsch A2
     start: 2019
     end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+    organization: TELC
+    #credentialid: 111-222
+    #credentialurl: www.github.com
+    #credentialname: Github
+    #details: |
 
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+# projects:
+#   title: Projects
+#   intro: >
+#     You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#   assignments:
+#   - title: Velocity
+#     link: "#hook"
+#     tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#   - title: DevStudio
+#     link: "#"
+#     tagline: "A responsive website template designed to help web developers/designers market their services."
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#   - title: Tempo
+#     link: "#"
+#     tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#   - title: Atom
+#     link: "#"
+#     tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#   - title: Delta
+#     link: "#"
+#     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  title: Open Source Software Contributions
+  #intro:
   contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  - title: SciCat
+    link: "https://www.scicatproject.org/"
+    tagline: "Scientific data catalog, used by large research facilities for collecting, organizing, and publishing research data. (Typescript, angular, react, go)"
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  - title: The Open Standards Community for Electron Microscopy (OSC-EM)
+    link: "https://github.com/osc-em"
+    tagline: "A metadata standard for electron microscopy data (LinkML, JSON Schema, JSON-LD, OWL)"
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  - title: BioJava
+    link: "https://www.biojava.org/"
+    tagline: "The leading open source Java library for bioinformatics"
+
+  - title: SymmetryCAD
+    link: "https://github.com/sbliven/symmetrycad"
+    tagline: "An OpenSCAD library for creating 3D symmetric lattices"
 
 publications:
   title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+  #intro: |
   papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+  - title: "OSC-EM: an open community standard for cryo-EM experimental metadata"
+    authors: "Carlos Oscar Sorzazno Sanchez, Lola Sánchez de Lara, Yves Tittes, Despina Adamopoulou, Sofya Laskina, Bridget/Utz, Sameer Velankar, Kyle Morris, Jose Maria Carazo, **Spencer Bliven**"
+    conference: "In preparation."
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+  - title: "OpenEM: An open data repository for electron microscopy"
+    authors: "Andrzej Rzepiela, Despoina Adamopoulou, Attila Nacsa, Sofya Laskina, Yves Tittes, David Wiessner, Philipp Wissmann, David Kalbermatter, Robbie Loewith, Henning Stahlberg, **Spencer Bliven**"
+    conference: "In preparation."
 
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+  - title: Low-pass spectral analysis of time-resolved serial femtosecond crystallography data
+    link: "https://doi.org/10.1063/4.0000178"
+    authors: "Cecilia M. Casadei, Ahmad Hosseinizadeh, **Spencer Bliven**, Tobias Weinert, Jörg Standfuss, Russell Fung, Gebhard F. X. Schertler, Robin Santra"
+    conference: "Structural Dynamics. (2023) 10, 034101. DOI: 10.1063/4.0000178"
 
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
+  - title: Cryo-EM structure of a single-chain β1-adrenoceptor – AmpC β-lactamase fusion protein
+    link: "https://doi.org/10.1101/2021.09.25.461805"
+    authors: "Collu G, Mohammed I, Lafita A, Bierig T, Poghosyan E, Bliven S, Benoit RM"
+    conference: "Bioarxiv. (2021) DOI: 10.1101/2021.09.25.461805"
 
-      He is a great employee!
+  - title: "TRAL 2.0: tandem repeat detection with circular profile hidden Markov models and evolutionary aligner"
+    link: "https://doi.org/10.3389/fbinf.2021.691865"
+    authors: "Matteo Delucchi, Paulina Näf, **Spencer Bliven**, Maria Anisimova"
+    conference: "Frontiers in Bioinformatics. (2021) 1:691865. DOI: 10.3389/fbinf.2021.691865"
 
-skills:
-  title: Skills &amp; Proficiency
+  - title: "Analyzing the symmetrical arrangement of structural repeats in proteins with CE-Symm"
+    link: "https://pubmed.ncbi.nlm.nih.gov/31009453"
+    authors: "**Spencer E Bliven**, Aleix Lafita, Peter W Rose, Guido Capitani, Andreas Prlić, Philip E Bourne"
+    conference: "PLoS Computational Biology. (2019) 15(4):e1006842. PMID: 31009453"
 
-  toolset:
-  - name: Python & Django
-    level: 98%
+  - title: "BioJava 5: A community driven open-source bioinformatics library"
+    link: "https://pubmed.ncbi.nlm.nih.gov/30735498"
+    authors: "Aleix Lafita, **Spencer Bliven**, Andreas Prlić, Dmytro Guzenko, Peter W Rose, Anthony Bradley, Paolo Pavan, Douglas Myers-Turnbull, Yana Valasatava, Michael Heuer, Matt Larson, Stephen K Burley, Jose M Duarte"
+    conference: "PLOS Computational Biology. (2019) 15(2):e1006791. PMID: 30735498"
 
-  - name: Javascript & jQuery
-    level: 98%
+  - title: "Automated evaluation of quaternary structures from protein crystals"
+    link: "https://pubmed.ncbi.nlm.nih.gov/29708963"
+    authors: "**Spencer Bliven**, Aleix Lafita, Althea Parker, Guido Capitani, Jose M Duarte"
+    conference: "PLOS Computational Biology. (2018) 14(4):e1006104. PMID: 29708963"
 
-  - name: Angular
-    level: 98%
+  - title: "Assessment of protein assembly prediction in CASP12"
+    link: "https://pubmed.ncbi.nlm.nih.gov/29071742"
+    authors: "Aleix Lafita, **Spencer Bliven**, Andriy Kryshtafovych, Martino Bertoni, Bohdan Monastyrskyy, Jose M Duarte, Torsten Schwede, Guido Capitani"
+    conference: "Proteins: Structure, Function, and Bioinformatics. (2017) 29(11):618. PMID: 29071742"
 
-  - name: HTML5 & CSS
-    level: 95%
+  - title: "Biological and functional relevance of CASP predictions"
+    link: "https://pubmed.ncbi.nlm.nih.gov/28975675"
+    authors: "Tianyun Liu, Shirbi Ish-Shalom, Wen Torng, Aleix Lafita, Christian Bock, Matthew Mort, David N Cooper, **Spencer Bliven**, Guido Capitani, Sean D Mooney, Russ B Altman"
+    conference: "Proteins: Structure, Function, and Bioinformatics. (2017) 84(suppl 1):370. PMID: 28975675"
 
-  - name: Ruby on Rails
-    level: 85%
+  - title: "Determining cysteines available for covalent inhibition across the human kinome"
+    link: "https://pubmed.ncbi.nlm.nih.gov/28326775"
+    authors: "Zheng Zhao, Qingsong Liu, **Spencer Bliven**, Lei Xie, Philip E Bourne"
+    conference: "Journal of Medicinal Chemistry. (2017) 60(7):2879–2889. PMID: 28326775"
 
-  - name: Sketch & Photoshop
-    level: 60%
+  - title: "Structure of the full-length VEGFR-1 extracellular domain in complex with VEGF-A"
+    link: "https://pubmed.ncbi.nlm.nih.gov/28111021"
+    authors: "Sandra Markovic-Mueller, Edward Stuttfeld, Mayanka Asthana, Tobias Weinert, **Spencer Bliven**, Kenneth N Goldie, Kaisa Kisko, Guido Capitani, Kurt Ballmer-Hofer"
+    conference: "Structure. (2017) 25(2):341–352. PMID: 28111021. PDB: 5T89"
+
+  - title: "Systems Biology of the Structural Proteome"
+    link: "https://pubmed.ncbi.nlm.nih.gov/26969117"
+    authors: "Elizabeth Brunk, Nathan Mih, Jonathan Monk, Ke Chen, Zhen Zhang, Edward J. O'Brien, **Spencer Bliven**, Roger L. Chang, Philip E. Bourne, Bernhard O. Palsson"
+    conference: "BMC Systems Biology. (2015) 10:26. PMID: 26969117"
+
+  - title: "Understanding the Fabric of Protein Crystals: Computational Classification of Biological Interfaces and Crystal Contacts"
+    link: "https://pubmed.ncbi.nlm.nih.gov/26508758"
+    authors: "Guido Capitani, Jose Duarte, Kumaran Baskaran, **Spencer Bliven**, Joseph C. Somody"
+    conference: "Bioinformatics. (2015) 32(4):481–489. PMID: 26508758"
+
+  - title: "Detection of Circular Permutations within Protein Structures using CE-CP"
+    link: "https://pubmed.ncbi.nlm.nih.gov/25505094"
+    authors: "**Spencer E. Bliven**, Philip E. Bourne, Andreas Prlić"
+    conference: "Bioinformatics. (2015) 31(8):1316-1318. PMID: 25505094"
+
+  - title: "A PDB-wide, evolution-based assessment of protein–protein interfaces"
+    link: "https://pubmed.ncbi.nlm.nih.gov/25326082"
+    authors: "Kumaran Baskaran, Jose M Duarte, Nikhil Biyani, **Spencer Bliven**, Guido Capitani"
+    conference: "BMC Structural Biology. (2014) 14:22. PMID: 25326082"
+
+  - title: "Systematic detection of internal symmetry in proteins using CE-Symm"
+    link: "https://pubmed.ncbi.nlm.nih.gov/24681267"
+    authors: "Douglas Myers-Turnbull, **Spencer E Bliven**, Peter W Rose, Zaid K Aziz, Philippe Youkharibache, Philip E Bourne, Andreas Prlic"
+    conference: "Journal of Molecular Biology. (2013) 426(11):2255–2268. PMID: 24681267"
+
+  - title: "BioJava: an open-source framework for bioinformatics in 2012"
+    link: "https://pubmed.ncbi.nlm.nih.gov/22877863"
+    authors: "Andreas Prlic, **Spencer Bliven**, Peter Rose, Julius Jacobsen, Peter V. Troshin, Mark Chapman, Jianjiong Gao, Chuan Hock Koh, Sylvain Foisy, Richard Holland, Gediminas Rimša, Michael L. Heuer, H. Brandstätter-Müller, Philip E. Bourne, Scooter Willis"
+    conference: "Bioinformatics. (2012) 28(20):2693–2695. PMID: 22877863"
+
+  - title: "Circular Permutation in Proteins"
+    link: "https://pubmed.ncbi.nlm.nih.gov/22496628"
+    authors: "**Spencer Bliven**, Andreas Prlic"
+    conference: "PLoS Computational Biology. (2012) 8(3):e1002445. PMID: 22496628"
+
+  - title: "Precalculated Protein Structure Alignments at the RCSB PDB website"
+    link: "https://pubmed.ncbi.nlm.nih.gov/20937596"
+    authors: "Andreas Prlic, **Spencer Bliven**, Peter W Rose, Wolfgang F. Bluhm, Chris Bizon, Adam Godzik, Philip E. Bourne"
+    conference: "Bioinformatics. (2010) 26(23):2983-2985. PMID: 20937596"
+
+# recommendations:
+#   title: Recommendations
+#   list:
+#   - person: Yareli Perez
+#     email: perezyareli@example.com
+#     phone: 012 345 6789
+#     role: General Director at example.com
+#     recommendation: |
+#       Alan Doe is a super employee!
+#   - person: Lara Henderson
+#     email: larah@example.com
+#     phone: 012 345 6789
+#     role: General Director at example.com
+#     recommendation: |
+#       I would like to work with Alan Doe again!
+
+#       He is a great employee!
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Theme: <a href="https://github.com/sharu725/online-cv">Orbit</a> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

@@ -7,8 +7,10 @@
  * Website: http://themes.3rdwavemedia.com/
 */
 
+@import "vars";
 @import "mixins";
 @import "base";
 @import "responsive";
 @import "utilities";
 @import "print";
+@import "custom";

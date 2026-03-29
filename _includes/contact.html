@@ -19,9 +19,15 @@
     </li>
     {% endif %}
 
+    {% if sidebar.residence %}
+    <li class="residence"><i class="fas fa-location-pin" aria-label="Residence" role="img" alt="Residence"></i>
+      {{ sidebar.residence }}
+    </li>
+    {% endif %}
+
     {% if sidebar.timezone %}
     <li class="timezone"><i class="fas fa-clock"></i>
-      <a href="https://worldtimeapi.org/timezone/{{ sidebar.timezone }}" target="_blank">{{ sidebar.timezone }} Timezone</a>
+      <a href="https://time.now/iana-time-zone/{{ sidebar.timezone | slugify }}" target="_blank">{{ sidebar.timezone }} Timezone</a>
     </li>
     {% endif %}
 
@@ -72,14 +78,14 @@
       <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank">{{ sidebar.twitter }}</a>
     </li>
     {% endif %}
-    
+
     {% if sidebar.bluesky %}
     {% assign bluesky_handle = sidebar.bluesky | remove: '@' %}
     <li class="bluesky"><i class="fab fa-bluesky"></i>
       <a href="https://bsky.app/profile/{{ bluesky_handle }}" target="_blank">{{ sidebar.bluesky }}</a>
     </li>
     {% endif %}
-    
+
     {% if sidebar.mastodon %}
     {% assign mastodon_handle = sidebar.mastodon | split: '/' %}
     <li class="mastodon"><i class="fab fa-mastodon"></i>
