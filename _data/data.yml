@@ -64,7 +64,7 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Scientific Computing Engineer with 15+ years of experience in bioinformatics, structural biology, and computational research. Expertise in designing and implementing full-stack scientific software solutions, open research data infrastructure, and large-scale computing systems. Passionate about open science, community-driven development, and enabling researchers through robust tools and data management systems. Strong background in algorithm development, software architecture, and cross-functional team leadership.
+    Senior research data expert and bioinformatician with 18+ years of experience in open science, both as a computational biologist and a service provider for scientific computing infrastructure. Passionate about accellerating research through open science practices and robust data management, with experience in software architecture and programming, large-scale computing, big data, leadership, and strategic planning. Strong communicator, able to translate the needs of researchers into technical solutions.
 
 education:
   title: Education
@@ -89,23 +89,25 @@ education:
 # Devops: docker, kubernetes, ansible, helm, CI/CD github actions
 
 skills:
-  title: Competences
+  title: Competencies
   show_levels: False # set to False if you want to hide the skill levels
 
   toolset:
   - name: Project Management
-    details: Agile development, kanban, SWOT analysis, Jira, github projects
+    details: Project coordination, agile development, kanban, Jira, github projects
     level: 98%
 
   - name: Top Programming Languages
-    details: Python, Java, Javascript, Typescript, HTML, CSS, Go, C++, Bash, R
+    details: Python, Java, Javascript, Typescript, HTML, CSS, Go, C++, Bash, R, SQL
 
   - name: Frameworks & Technologies
-    details: Angular, OpenAPI, LinkML, JSON Schema, JSON-LD,
+    details: Angular 2, OpenAPI, LinkML, JSON Schema, JSON-LD, REST APIs, Jekyll, Numpy/Pandas, Jupyter, MongoDB
 
   - name: Devops
     details: Docker, Kubernetes, Ansible, Helm, CI/CD with github actions
 
+  - name: Scientific expertise
+    details: Electron microscopy, structural biology, bioinformatics, statistics, machine learning, AI, phylogenetics, semantic ontologies
 
 experiences:
   title: Experiences
@@ -113,41 +115,45 @@ experiences:
   - role: Scientific Computing Engineer
     time: 2018 - Present
     company: Scientific Data Curation, Paul Scherrer Institute, Switzerland
+    # EG-SI invitation 2021-08-24. CIP/RDS Explorer Sounding Board est. 2024-05-02
     details: |
       - Project coordinator for OpenEM (openem.ch). Created an open research data (ORD) infrastructure for Swiss electron microscopy facilities. Wrote ETH and swissuniversities grants leading to 2.4 million CHF, then led a distributed team of 7 developers implementing the infrastructure.
-      - Represented PSI in ORD committees and consortiums. (ETH-ORD Expert Group for Services and Infrastructure; ETH Research Data Services Explorer Steering Committee)
-      - Scientific software projects, including full-stack web apps, high-performance computing, and devops deployment. (Typescript, Python, Go, C++, ansible, kubernetes)
+      - Represented PSI in ORD committees and consortiums (ETH-ORD Expert Group for Services and Infrastructure, 2021-Present; ETH Research Data Services Explorer Steering Committee, 2024-Present)
+      - Scientific software projects, including full-stack web apps, high-performance computing, and devops deployment. (Typescript, Angular 2, Python, Go, C++, ansible, kubernetes)
       - Created data collection and processing pipelines for the PSI electron microscopy facility. (Slurm, relion, cryoSPARC, hardware purchasing and installation, network configuration)
 
   - role: Postdoctoral Researcher
     time: 2017 - 2018
     company: Zurich University of Applied Science, Switzerland
     details: |
-      _Advisor:_ Prof. Maria Anisimova.
-      Focused on phylogenetic methods for tandem repeat proteins, including software development and benchmarking. Developed novel methods for the [Tandem Repeat(https://github.com/acg-team/tral) and applied these systematically to the Armadillo Repeat protein family. (Python, slurm)
+      _Advisor: Prof. Maria Anisimova._
+      Focused on phylogenetic methods for tandem repeat proteins, including software development and benchmarking. Developed novel methods for the [Tandem Repeat](https://github.com/acg-team/tral) and applied these systematically to the Armadillo Repeat protein family. (Python, slurm, Apache spark)
   - role: NIH Postdoctoral Fellow
     time: 2015 - 2017
     company: National Institutes of Health, Bethesda, MD
     details: |
-      _Advisors:_ Prof. Philip Bourne (NIH) and Dr. Guido Capitani (PSI)
-      Analysis of protein-protein interactions in crystal structures as part of the [EPPIC](https://www.eppic-web.org), the Evolutionary Protein Protein Interface Classifier. (Java, Javascript, NGL, vis.js)
+      _Advisors: Prof. Philip Bourne (NIH) and Dr. Guido Capitani (PSI)._
+      - Analysis of protein-protein interactions in crystal structures as part of the [EPPIC](https://www.eppic-web.org), the Evolutionary Protein Protein Interface Classifier. (Java, Javascript, NGL, vis.js)
+      - Assessor for the Critical Assessment of Structure-based Prediction (CASP12) community-wide experiment. (Python, web development)
   - role: PhD in Bioinformatics
     company: University of California, San Diego
     time: 2009-2015
     details: |
-      _Advisor:_ Prof. Philip Bourne.
-      _Thesis:_ [Structure-Preserving Rearrangements: Algorithms for Structural Comparison and Protein Analysis](https://www.proquest.com/openview/66848a5f702b91ce5b7b43f2356bcde1/1?pq-origsite=gscholar&cbl=18750)
-      Structural comparison algorithms for proteins, including [CE-Symm](https://github.com/rcsb/symmetry/) for detecting internal pseudosymmetry. These were deployed on the [RCSB Protein Data Bank](https://www.rcsb.org), as well as applied systematically across the PDB. (Java, Open Science Cloud, BioJava core developer, Open Bioinformatics Foundation member)
+      _Advisor: Prof. Philip Bourne._
+      Thesis: [Structure-Preserving Rearrangements: Algorithms for Structural Comparison and Protein Analysis](https://www.proquest.com/openview/66848a5f702b91ce5b7b43f2356bcde1/1?pq-origsite=gscholar&cbl=18750)
+
+      - Structural comparison algorithms for proteins, including [CE-Symm](https://github.com/rcsb/symmetry/) for detecting internal pseudosymmetry.
+      - Deployment of structural analysis tools on the [RCSB Protein Data Bank](https://www.rcsb.org), as well as large-scale systematic analyses. (Java, Open Science Cloud, BioJava core developer, Open Bioinformatics Foundation member)
   - role: Lab Intern
     time: 2008
     company: ETH Zürich
     details: |
-      _Advisor:_ Prof. Donald Hilvert
+      _Advisor: Prof. Donald Hilvert_
   - role: Undergraduate Researcher
     time: 2007
     company: Seattle Children's Hospital/U. Washington Dept. Biomedical and Health Informatics
     details: |
-      Advisor:_ Dr. Eugene Kolker
+      _Advisor: Dr. Eugene Kolker_
   - role: Software Intern
     time: 2006 - 2007
     company: Exbiblio
