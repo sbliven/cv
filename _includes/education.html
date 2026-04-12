@@ -42,7 +42,9 @@
 
       {% if graduation.details %}
       <div class="details">
-        {{ graduation.details | markdownify | replace: 'href="/assets/', 'href="' | append: site.baseurl | append: '/assets/'}}
+        {# hack to fix absolute links in markdown #}
+        {% assign patchedhref = 'href="' | append: site.baseurl | append: '/assets/' %}
+        {{ graduation.details | markdownify | replace: 'href="/assets/', patchedhref }}
       </div><!--//details-->
       {% endif %}
 
