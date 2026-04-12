@@ -3,9 +3,13 @@
     size: A4;
   }
   body {
-    font-size: 9pt;
+    //font-size: 9pt;
     background-color: white;
     padding: 0;
+  }
+
+  p {
+    text-align: justify;
   }
   .wrapper {
     max-width: 100%;
@@ -15,17 +19,20 @@
   //     filter: grayscale(1);
   //     -webkit-filter: greyscale(1);
   //   }
-  .main-wrapper .time {
-    padding: 10px 30px 10px 10px;
-    //  float: right;
-    //  color: black !important;
-    -webkit-print-color-adjust: exact;
+
+  .main-wrapper {
+    .time {
+      padding: 10px 30px 10px 10px;
+      //  float: right;
+      //  color: black !important;
+      print-color-adjust: exact;
+    }
   }
   .sidebar-wrapper {
-    position: static;
+    //position: static;
     //  float: right;
     //  width: 40%;
-    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
 
   .remove-container.container-block {
@@ -43,7 +50,7 @@
 
   .skillset .level-bar-inner {
     background-color: $theme-color !important;
-    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
 
    .fa-inverse,

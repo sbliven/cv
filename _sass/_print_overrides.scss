@@ -1,0 +1,68 @@
+body {
+  padding: 10 !important;
+  background: #fff;
+}
+.wrapper {
+  max-width: unset !important;
+  background: unset;
+  box-shadow: unset;
+}
+.main-wrapper {
+  padding: 0;//$page-margin;
+  grid-column: span 10;
+  // border: solid black 1px;
+}
+.sidebar-wrapper {
+  width: 30%; // match 3-column span
+  height: 1pg;
+  float: left;
+  margin-right: $page-margin;
+  margin-bottom: 0;
+  height: 297mm - 2 * $page-margin;
+  font-size: 7pt;
+}
+.skillset,
+.container-block,
+.item {
+  break-inside: avoid;
+}
+
+.no-break {
+  break-inside: avoid;
+}
+
+.break-after {
+  break-after: always;
+}
+
+.break-before {
+  break-before: always;
+}
+
+.pt-4 {
+  padding-top: 4pt !important;
+}
+.pt-8 {
+  padding-top: 8pt !important;
+}
+.mb-large {
+  margin-bottom: 2cm !important;
+}
+
+.pb-4 {
+  padding-bottom: 4pt !important;
+}
+
+.pb-8 {
+  padding-bottom: 8pt !important;
+}
+.pb-12 {
+  padding-bottom: 12pt !important;
+}
+.pb-16 {
+  padding-bottom: 16pt !important;
+}
+// Hack; only relevant for one size
+.sidebar-margin {
+  margin-left: 32%
+}

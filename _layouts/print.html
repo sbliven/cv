@@ -8,20 +8,15 @@
 <!--[if !IE]><!-->
 <html lang="en">
   <!--<![endif]-->
-  {% include head.html %}
-  <style>
-    body {
-      padding: 0 !important;
-    }
-    .wrapper {
-      max-width: unset !important;
-    }
-  </style>
+  {% include head.html stylesheet="/assets/css/print.css" %}
   <body>
     <div class="wrapper">
-      {% include sidebar.html %}
 
-      <div class="main-wrapper">{{ content }}</div>
+      <div class="main-wrapper">
+        {% include sidebar.html %}
+
+        {{ content }}
+      </div>
     </div>
     {% include scripts.html %}
   </body>

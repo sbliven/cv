@@ -123,6 +123,15 @@
     </li>
     {% endif %}
 
+    {% if sidebar.orcid %}
+    <li class="orcid">
+      <a href="https://orcid.org/{{ sidebar.orcid }}" target="_blank">
+        <img class="side-icon" src="{% link /assets/images/ORCID-iD_icon_reversed_24x24-preview.webp %}"/>
+        {{ sidebar.orcid }}
+      </a>
+    </li>
+    {% endif %}
+
     {% if sidebar.pdf %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
       <a href="{{ sidebar.pdf }}" target="_blank">Resume PDF</a>

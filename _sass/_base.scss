@@ -1,5 +1,4 @@
 /* ======= Base ======= */
-@import "vars";
 
 body {
   font-family: "Roboto", sans-serif;
@@ -35,6 +34,9 @@ p {
   line-height: 1.5;
 }
 
+ul, ol {
+  padding-left: 25px;
+}
 .wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -159,6 +161,10 @@ p {
       }
     }
   }
+
+  .side-icon {
+    height: 18px;
+  }
 }
 
 .main-wrapper {
@@ -252,6 +258,16 @@ p {
     .intro {
       margin-bottom: 30px;
     }
+    .orcid-link {
+      display: inline;
+      margin-left: 10px;
+      color: #ccc;
+      font-size: $body-font-size;
+
+      .side-icon {
+        height: 1em;
+      }
+    }
     .item {
       font-size: 10pt;
       margin-bottom: 0px;
@@ -261,6 +277,7 @@ p {
         color: $text-color;
         //margin-bottom: 1px;
         display: inline;
+
       }
       .publication-authors {
         color: $text-grey;
@@ -271,6 +288,7 @@ p {
         font-style: italic;
         display: inline;
       }
+
     }
   }
 }
@@ -295,6 +313,7 @@ p {
   }
   .level-details {
     margin-bottom: 0px;
+    display: inline-block;
   }
 }
 

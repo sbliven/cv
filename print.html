@@ -6,11 +6,11 @@ permalink: /print
 
 {% include career-profile.html %}
 
+{% include skills.html %}
+
 {% unless site.data.data.sidebar.education %}
   {% include education.html %}
 {% endunless %}
-
-{% include skills.html %}
 
 {% include experiences.html %}
 
@@ -20,6 +20,6 @@ permalink: /print
 
 {% include oss-contributions.html %}
 
-{% include publications.html %}
+{% include publications.html extraclasses="mb-large" %}
 
-{% include recommendations.html %}
+{% include recommendations.html extraclasses="" %}

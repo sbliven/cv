@@ -5,7 +5,7 @@
 sidebar:
   position: left # position of the sidebar : left or right
   about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
   name: Spencer Bliven
@@ -34,6 +34,7 @@ sidebar:
   #hackerrank: # Please provide your HackerRank username.
   #leetcode: # Please provide your LeetCode username.
   #pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  orcid: 0000-0002-1200-1698
 
   languages:
     title: Languages
@@ -58,7 +59,7 @@ sidebar:
       link:
     - item: Horology
       link:
-    - item: Singing
+    - item: Music & Choir
       link:
 
 career-profile:
@@ -94,17 +95,18 @@ skills:
 
   toolset:
   - name: Project Management
-    details: Project coordination, agile development, kanban, Jira, github projects
+    details: Project coordination, agile development, kanban, Jira, distributed teams
+    #github projects
     level: 98%
 
   - name: Top Programming Languages
-    details: Python, Java, Javascript, Typescript, HTML, CSS, Go, C++, Bash, R, SQL
+    details: Python, Java, Go, Javascript, Typescript, HTML, CSS, C++, Bash, R, SQL
 
   - name: Frameworks & Technologies
     details: Angular 2, OpenAPI, LinkML, JSON Schema, JSON-LD, REST APIs, Jekyll, Numpy/Pandas, Jupyter, MongoDB
 
   - name: Devops
-    details: Docker, Kubernetes, Ansible, Helm, CI/CD with github actions
+    details: Docker, Kubernetes, Ansible, Helm, CI/CD
 
   - name: Scientific expertise
     details: Electron microscopy, structural biology, bioinformatics, statistics, machine learning, AI, phylogenetics, semantic ontologies
@@ -121,6 +123,7 @@ experiences:
       - Represented PSI in ORD committees and consortiums (ETH-ORD Expert Group for Services and Infrastructure, 2021-Present; ETH Research Data Services Explorer Steering Committee, 2024-Present)
       - Scientific software projects, including full-stack web apps, high-performance computing, and devops deployment. (Typescript, Angular 2, Python, Go, C++, ansible, kubernetes)
       - Created data collection and processing pipelines for the PSI electron microscopy facility. (Slurm, relion, cryoSPARC, hardware purchasing and installation, network configuration)
+    extraclasses: break-after pb-8 sidebar-margin
 
   - role: Postdoctoral Researcher
     time: 2017 - 2018
@@ -144,16 +147,12 @@ experiences:
 
       - Structural comparison algorithms for proteins, including [CE-Symm](https://github.com/rcsb/symmetry/) for detecting internal pseudosymmetry.
       - Deployment of structural analysis tools on the [RCSB Protein Data Bank](https://www.rcsb.org), as well as large-scale systematic analyses. (Java, Open Science Cloud, BioJava core developer, Open Bioinformatics Foundation member)
-  - role: Lab Intern
+  - role: Lab Intern, Prof. Donald Hilvert
     time: 2008
     company: ETH Zürich
-    details: |
-      _Advisor: Prof. Donald Hilvert_
-  - role: Undergraduate Researcher
+  - role: Undergraduate Researcher, Dr. Eugene Kolker
     time: 2007
     company: Seattle Children's Hospital/U. Washington Dept. Biomedical and Health Informatics
-    details: |
-      _Advisor: Dr. Eugene Kolker_
   - role: Software Intern
     time: 2006 - 2007
     company: Exbiblio
@@ -212,25 +211,25 @@ certifications:
 #     link: "#"
 #     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-oss:
-  title: Open Source Software Contributions
-  #intro:
-  contributions:
-  - title: SciCat
-    link: "https://www.scicatproject.org/"
-    tagline: "Scientific data catalog, used by large research facilities for collecting, organizing, and publishing research data. (Typescript, angular, react, go)"
+# oss:
+#   title: Open Source Software Contributions
+#   #intro:
+#   contributions:
+#   - title: SciCat
+#     link: "https://www.scicatproject.org/"
+#     tagline: "Scientific data catalog, used by large research facilities for collecting, organizing, and publishing research data. (Typescript, angular, react, go)"
 
-  - title: The Open Standards Community for Electron Microscopy (OSC-EM)
-    link: "https://github.com/osc-em"
-    tagline: "A metadata standard for electron microscopy data (LinkML, JSON Schema, JSON-LD, OWL)"
+#   - title: The Open Standards Community for Electron Microscopy (OSC-EM)
+#     link: "https://github.com/osc-em"
+#     tagline: "A metadata standard for electron microscopy data (LinkML, JSON Schema, JSON-LD, OWL)"
 
-  - title: BioJava
-    link: "https://www.biojava.org/"
-    tagline: "The leading open source Java library for bioinformatics"
+#   - title: BioJava
+#     link: "https://www.biojava.org/"
+#     tagline: "The leading open source Java library for bioinformatics"
 
-  - title: SymmetryCAD
-    link: "https://github.com/sbliven/symmetrycad"
-    tagline: "An OpenSCAD library for creating 3D symmetric lattices"
+#   - title: SymmetryCAD
+#     link: "https://github.com/sbliven/symmetrycad"
+#     tagline: "An OpenSCAD library for creating 3D symmetric lattices"
 
 publications:
   title: Publications
@@ -243,6 +242,7 @@ publications:
   - title: "OpenEM: An open data repository for electron microscopy"
     authors: "Andrzej Rzepiela, Despoina Adamopoulou, Attila Nacsa, Sofya Laskina, Yves Tittes, David Wiessner, Philipp Wissmann, David Kalbermatter, Robbie Loewith, Henning Stahlberg, **Spencer Bliven**"
     conference: "In preparation."
+    extraclasses: break-after pb-4
 
   - title: Low-pass spectral analysis of time-resolved serial femtosecond crystallography data
     link: "https://doi.org/10.1063/4.0000178"

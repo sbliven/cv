@@ -1,6 +1,6 @@
 {% assign recommendations = site.data.data.recommendations %} {% if
 recommendations %}
-<section class="section recommendations-section">
+<section class="section recommendations-section {{include.extraclasses}}">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
@@ -9,7 +9,7 @@ recommendations %}
     {{ recommendations.title }}
   </h2>
   {% for recommendation in recommendations.list %}
-  <div class="item">
+  <div class="item {{recommendation.extraclasses}}">
     {% if recommendation.recommendation %}
     <blockquote class="details">
       {{ recommendation.recommendation | markdownify }}
@@ -20,8 +20,12 @@ recommendations %}
       <div class="ml-auto">
     {%- endif %}
         <h3 class="recommendation-person">{{ recommendation.person }}</h3>
-        <p>{{ recommendation.role }}</p>
-        {% if recommendation.email %}
+        <p>{{ recommendation.role }}
+        {%- if recommendation.organization -%}
+        <br/>{{ recommendation.organization }}
+        {%- endif -%}
+        </p>
+        {%- if recommendation.email -%}
         <div>
           <a href="mailto:{{recommendation.email}}"
             ><i class="fas fa-envelope mr-1"></i>{{ recommendation.email }}</a

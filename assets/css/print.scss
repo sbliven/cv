@@ -14,7 +14,8 @@ $resume-order: 1;
 $sidebar-order: 2;
 {% endif %}
 
-@import "vars";
+@import "vars_print";
 .custom { font-size: $body-font-size;}
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
+@import "print_overrides";
