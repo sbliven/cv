@@ -81,7 +81,7 @@ education:
     time: 2004 - 2009
     details: |
       _Advisor:_ Prof. David Baker.
-      _Thesis:_ [Efficient Modeling of Disulfide Bonds with Rosetta](/assets/documents/Bliven thesis University of Washington.pdf)
+      _Thesis:_ [Efficient Modeling of Disulfide Bonds with Rosetta]({{site.baseurl}}{% link /assets/documents/Bliven thesis University of Washington.pdf %})
 
 # Competencies
 # Project Management:

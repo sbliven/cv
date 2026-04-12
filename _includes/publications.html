@@ -11,7 +11,7 @@
     {% if site.data.data.sidebar.orcid %}
     <div class="orcid-link"
       <a href="https://orcid.org/{{ site.data.data.sidebar.orcid }}" target="_blank">
-        <img class="side-icon" src="{% link /assets/images/ORCID-iD_icon_24x24-preview.webp %}"/>
+        <img class="side-icon" src="{{site.baseurl}}{% link /assets/images/ORCID-iD_icon_24x24-preview.webp %}"/>
         https://orcid.org/{{ site.data.data.sidebar.orcid }}
       </a>
     {% endif %}
