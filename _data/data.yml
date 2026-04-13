@@ -103,7 +103,7 @@ skills:
     details: Python, Java, Go, Javascript, Typescript, HTML, CSS, C++, Bash, R, SQL
 
   - name: Frameworks & Technologies
-    details: Angular 2, OpenAPI, LinkML, JSON Schema, JSON-LD, REST APIs, Jekyll, Numpy/Pandas, Jupyter, MongoDB
+    details: Numpy/Pandas, NodeJS, Angular 2, OpenAPI, LinkML, JSON Schema, JSON-LD, REST APIs, Jekyll, MongoDB, Jupyter
 
   - name: Devops
     details: Docker, Kubernetes, Ansible, Helm, CI/CD
