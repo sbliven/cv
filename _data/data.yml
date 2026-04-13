@@ -244,6 +244,10 @@ publications:
     conference: "In preparation."
     extraclasses: break-after pb-4
 
+  - title: Cryo-EM structure of a single-chain β1-adrenoceptor – AmpC β-lactamase fusion protein
+    authors: "Gabriella Collu, Inayathulla Mohammed, Aleix Lafita, Tobias Bierig, Emiliya Poghosyan, **Spencer Bliven**, Pavel Afanasyev, Roger Marc Benoit"
+    conference: "J Struct Biol. (2026) Under review."
+
   - title: Low-pass spectral analysis of time-resolved serial femtosecond crystallography data
     link: "https://doi.org/10.1063/4.0000178"
     authors: "Cecilia M. Casadei, Ahmad Hosseinizadeh, **Spencer Bliven**, Tobias Weinert, Jörg Standfuss, Russell Fung, Gebhard F. X. Schertler, Robin Santra"
